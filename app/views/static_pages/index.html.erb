@@ -2,7 +2,7 @@
   <header class="header">
     <h1>todos</h1>
     <form id="new-form">
-      <input type="text" class="new-todo" />
+      <input type="text" class="new-todo" placeholder="What needs to be done?" />
     </form>
   </header>
 
@@ -14,3 +14,8 @@
 </section>
 
 
+<section class="author">
+  A <%= link_to "todo-mvc", "http://todomvc.com", target: :_blank %>
+  application, built by
+  <%= link_to "Mike Lu", "http://github.com/michaellu716", target: :_blank %>
+</section>
